@@ -5,6 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
     <title>ROY</title>
+    <style>
+        /* Random floating animations for the table */
+        table {
+            animation: floatTable 1s ease-in-out infinite alternate;
+            width: 90%; /* Increased size */
+            margin: 20px auto;
+            transition: transform 0.3s ease;
+            font-size: 22px; /* Bigger text size for table */
+        }
+
+        /* Random floating animation keyframes for table */
+        @keyframes floatTable {
+            0% {
+                transform: translate(0, 0);
+            }
+            25% {
+                transform: translate(20px, -20px);
+            }
+            50% {
+                transform: translate(-30px, 30px);
+            }
+            75% {
+                transform: translate(10px, -10px);
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+
+        /* Random floating animations for the Asciinema player */
+        #hello {
+            animation: floatPlayer 1s ease-in-out infinite alternate;
+            margin: 20px auto;
+            width: 400px; /* Slightly bigger player size */
+            transition: transform 0.3s ease;
+        }
+
+        /* Random floating animation keyframes for player */
+        @keyframes floatPlayer {
+            0% {
+                transform: translate(0, 0);
+            }
+            25% {
+                transform: translate(10px, -10px);
+            }
+            50% {
+                transform: translate(-20px, 20px);
+            }
+            75% {
+                transform: translate(15px, -15px);
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+
+        /* Stop floating on hover */
+        table:hover, #hello:hover {
+            animation-play-state: paused;
+            transform: none;
+        }
+
+        /* No animation for embedded YouTube videos */
+        iframe {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <h1>CJ <a href="#"></a>------------[{  oh shit here we go again</h1>
@@ -13,16 +80,13 @@
     <h2><a href="#"> TOO LAZY FOR CSS</a></h2>
     <h2>----------------------------------------------------------------------------------------</h2>
     <h3><em>Important vids to watch ItS awesome </em></h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/LZgeIReY04c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
     <h3>-------------------------------</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/BYBKnWl1cBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HmZm8vNHBSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/BYBKnWl1cBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/HmZm8vNHBSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <h3><a href="https://ripped.guide/">https://ripped.guide/</a></h3>
-    <h3><a href="https://x.com/1024TiB">Twitter</a></h3>
     <h1><a href="offsec/no.zip">no.zip</a></h1>
-    <h1><a href="offsec/win64src.exe">win64src</a></h1>
 
-    <h1><a href="offsec/skuld.exe">win64src</a></h1>
     <h1><a href="https://mega.nz/file/qVY2WBQQ#4kLEHzmyitdRt_acikM7u86ip6rRZhsYrg-NQ4ZjGhc">win-prom</a></h1>
 
 
